@@ -56,10 +56,8 @@
           </nav>
 
           <div class="header-social-links">
-              <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              <a href="https://github.com/lishunyang12"><i class="bi bi-github"></i></a>
+              <a href="https://www.linkedin.com/in/shunyangli/"><i class="bi bi-linkedin"></i></a>
           </div>
 
       </div>
@@ -73,191 +71,241 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Projects</h2>
-        <p>These are some of my personal and group projects. </p>
+        <p>These are my personal and group projects from courses and work. </p>
       </div><!-- End Section Title -->
 
       <div class="container">
 
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Card</li>
-            <li data-filter=".filter-branding">Web</li>
-          </ul><!-- End Portfolio Filters -->
+              <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+                  <li data-filter="*" class="filter-active">All</li>
+                  <li data-filter=".filter-calibur">Calibur Robotics</li>
+                  <li data-filter=".filter-Coursework">Coursework</li>
+                  <li data-filter=".filter-IndividualIntern">Individual/Intern</li>
+              </ul><!-- End Portfolio Filters -->
 
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                  <img src="assets/img/masonry-portfolio/SlipringPcb.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                      <h4>Slipring PCB</h4>
-                      <p>Gimbal and chassis PCB depolyed to ensure stable CAN communication in rotational acceleration</p>
-                      <a href="slipring_PCB-detail.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-calibur">
+                      <img src="assets/img/masonry-portfolio/pic6.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                          <h4>Robotic Arm "Engineer"</h4>
+                          <p>Develop forward and inverse kinematics algo for the first generation of "Engineer" for RMUC</p>
+                          <a href="assets/img/masonry-portfolio/pic6.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                          <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                      </div>
+                  </div><!-- End Portfolio Item -->
+
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Coursework">
+                      <img src="assets/img/masonry-portfolio/trade.jpg/" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                          <h4>Market Predict AI models</h4>
+                          <p>
+                              AI models to forecast NASDAQ stock price, employing ridge regression, linear regression, K-nearest
+                              neighbors, Decision Tree regression, and Long Short-Term Memory(LSTM).
+                              Trend prediction strategy based on sell-and-buy signals from trained models, ensuring consistent positive
+                              returns across all models
+                          </p>
+                          <a href="assets/img/masonry-portfolio/trade.jpg" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      </div>
+                  </div><!-- End Portfolio Item -->
+
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-calibur">
+                      <!-- 移除图片标签 -->
+                      <!-- <img src="assets/img/masonry-portfolio/tracker.jpg" class="img-fluid" alt=""> -->
+                      <!-- 插入视频标签，移除controls属性，保留autoplay、muted和loop属性 -->
+                      <video width="100%" height="auto" autoplay muted loop>
+                          <source src="assets/img/masonry-portfolio/video1.mp4" type="video/mp4">
+                          您的浏览器不支持HTML5视频标签。
+                      </video>
+
+                      <div class="portfolio-info">
+                          <h4>ArmorPlate CV tracker</h4>
+                          <p>Resnet and classical computer vision techniques to track and predict armor plates' 3-D position. Algo depolyed on realsense D435i and Rpi4 and send position data to STM32 via USART</p>
+                          <!-- 如果不需要视频预览链接，可以移除下面的<a>标签 -->
+                          <!-- <a href="assets/img/masonry-portfolio/video1.mp4" title="Product Video" data-gallery="portfolio-gallery-product" class="glightbox preview-link" target="_blank"><i class="bi bi-zoom-in"></i></a> -->
+                      </div>
+                  </div><!-- End Portfolio Item -->
+
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Coursework">
+                      <img src="assets/img/masonry-portfolio/pic5.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                          <h4>Alex - a rescue robot</h4>
+                          <p>
+                              A Remotely Piloted Cloud Controllable Robot.
+                              Using LIDAR with SLAM to map surroundings and transmit visual map back to operator.
+                              Operator sends commands to move Alex through the location
+                          </p>
+                          <a href="assets/img/masonry-portfolio/pic5.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      </div>
+                  </div><!-- End Portfolio Item -->
+
+
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-IndividualIntern">
+                      <img src="assets/img/masonry-portfolio/huazhong.jpg/" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                          <h4>Huazhong Team Management (Software Intern)</h4>
+                          <p>
+                              A project portfolio management system that help more
+                              than 20 engineering teams streamline project administration and document storage.
+                              Features: Project Planner, Staff Management, Legal and normative documents repository.
+                              The prototype is as shown.
+                          </p>
+                          <a href="assets/img/masonry-portfolio/huazhong.jpg" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      </div>
+                  </div><!-- End Portfolio Item -->
+
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-calibur">
+                      <!-- 插入视频标签，添加autoplay（这里先不加，因为我们要通过JS控制播放）、muted和loop属性，并添加一个id以便JS可以引用它 -->
+                      <video id="portfolioVideo" width="100%" height="auto" muted loop>
+                          <source src="assets/img/masonry-portfolio/video2.mp4" type="video/mp4">
+                          您的浏览器不支持HTML5视频标签。
+                      </video>
+                      <div class="portfolio-info">
+                          <!-- 初始描述文本 -->
+                          <h4>Mecanum wheel Chassis Control</h4>
+                          <p id="portfolioDescription">Lorem ipsum, dolor sit</p>
+                          <!-- 更改链接（虽然链接可能仍然指向视频文件，但标题已经更新或可以保持不变） -->
+                          <a href="assets/img/masonry-portfolio/video2.mp4" title="Mecanum wheel Chassis Control Video" data-gallery="portfolio-gallery-branding" class="glightbox preview-link" target="_blank"><i class="bi bi-zoom-in"></i></a>
+                      </div>
                   </div>
-              </div><!-- End Portfolio Item -->
 
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                  <!-- 移除图片标签 -->
-                  <!-- <img src="assets/img/masonry-portfolio/tracker.jpg" class="img-fluid" alt=""> -->
-                  <!-- 插入视频标签，移除controls属性，保留autoplay、muted和loop属性 -->
-                  <video width="100%" height="auto" autoplay muted loop>
-                      <source src="assets/img/masonry-portfolio/video1.mp4" type="video/mp4">
-                      您的浏览器不支持HTML5视频标签。
-                  </video>
 
-                  <div class="portfolio-info">
-                      <h4>ArmorPlate CV tracker</h4>
-                      <p>Resnet and classical computer vision techniques to track and predict target's position</p>
-                      <!-- 如果不需要视频预览链接，可以移除下面的<a>标签 -->
-                      <!-- <a href="assets/img/masonry-portfolio/video1.mp4" title="Product Video" data-gallery="portfolio-gallery-product" class="glightbox preview-link" target="_blank"><i class="bi bi-zoom-in"></i></a> -->
-                      <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                  </div>
-              </div><!-- End Portfolio Item -->
+                  <!-- 添加JavaScript来控制视频播放和描述文本 -->
+                  <script>
+                      document.addEventListener('DOMContentLoaded', function () {
+                          var video = document.getElementById('portfolioVideo');
+                          var description = document.getElementById('portfolioDescription');
 
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                  <img src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                      <h4>Branding 1</h4>
-                      <p>Lorem ipsum, dolor sit</p>
-                      <a href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                      <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                  </div>
-              </div><!-- End Portfolio Item -->
+                          // 初始播放视频（如果需要的话，因为autoplay在某些浏览器中可能不起作用）
+                          video.play();
 
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                  <!-- 插入视频标签，添加autoplay（这里先不加，因为我们要通过JS控制播放）、muted和loop属性，并添加一个id以便JS可以引用它 -->
-                  <video id="portfolioVideo" width="100%" height="auto" muted loop>
-                      <source src="assets/img/masonry-portfolio/video2.mp4" type="video/mp4">
-                      您的浏览器不支持HTML5视频标签。
-                  </video>
-                  <div class="portfolio-info">
-                      <!-- 初始描述文本 -->
-                      <h4>Mecanum wheel Chassis Control</h4>
-                      <p id="portfolioDescription">Lorem ipsum, dolor sit</p>
-                      <!-- 更改链接（虽然链接可能仍然指向视频文件，但标题已经更新或可以保持不变） -->
-                      <a href="assets/img/masonry-portfolio/video2.mp4" title="Mecanum wheel Chassis Control Video" data-gallery="portfolio-gallery-branding" class="glightbox preview-link" target="_blank"><i class="bi bi-zoom-in"></i></a>
-                      <!-- 保留详情链接 -->
-                      <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                  </div>
-              </div>
+                          // 添加鼠标事件监听器
+                          video.parentElement.addEventListener('mouseenter', function () {
+                              video.pause(); // 鼠标移入时暂停视频
+                              description.textContent = 'Implement firmware for controlling chassis brush-less motors (M3508) with PID tuning.'; // 更改描述文本
+                          });
 
-              <!-- 添加JavaScript来控制视频播放和描述文本 -->
-              <script>
-                  document.addEventListener('DOMContentLoaded', function () {
-                      var video = document.getElementById('portfolioVideo');
-                      var description = document.getElementById('portfolioDescription');
-
-                      // 初始播放视频（如果需要的话，因为autoplay在某些浏览器中可能不起作用）
-                      video.play();
-
-                      // 添加鼠标事件监听器
-                      video.parentElement.addEventListener('mouseenter', function () {
-                          video.pause(); // 鼠标移入时暂停视频
-                          description.textContent = 'Implement firmware for controlling chassis brush-less motors (M3508) with PID tuning.'; // 更改描述文本
+                          video.parentElement.addEventListener('mouseleave', function () {
+                              video.play(); // 鼠标移出时重新播放视频
+                              // 如果需要在鼠标移出时恢复原始描述，可以在这里设置
+                              // 但根据您的要求，这里不恢复，保持新的描述
+                          });
                       });
+                  </script>
 
-                      video.parentElement.addEventListener('mouseleave', function () {
-                          video.play(); // 鼠标移出时重新播放视频
-                          // 如果需要在鼠标移出时恢复原始描述，可以在这里设置
-                          // 但根据您的要求，这里不恢复，保持新的描述
+
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Coursework">
+                      <!-- 更改图片链接 -->
+                      <img src="assets/img/masonry-portfolio/picture2.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                          <h4>FPGA "Pong" Game</h4>
+                          <p>Made a two-players Ping Pong game on two FPGA boards</p>
+                          <!-- 保留或修改图片预览链接 -->
+                          <a href="assets/img/masonry-portfolio/picture2.jpg" title="FPGA Pong Game" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+
+                      </div>
+                  </div><!-- End Portfolio Item -->
+
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Coursework">
+                      <!-- 插入视频标签，并添加一个id以便JS引用 -->
+                      <video id="brandingVideo" width="100%" height="auto" autoplay muted loop>
+                          <source src="assets/img/masonry-portfolio/video3.mp4" type="video/mp4">
+                          您的浏览器不支持HTML5视频标签。
+                      </video>
+
+                      <div class="portfolio-info">
+                          <h4>FPGA Handwriting Recognition Challenge</h4>
+                          <p id="brandingDescription">Verilog-based Various functionalities displayed on Pmod connected to a Basys 3 Board</p>
+                          <!-- 如果需要的话，可以保留或修改视频预览链接 -->
+                          <!-- <a href="assets/img/masonry-portfolio/video3.mp4" title="Branding Video" data-gallery="portfolio-gallery-branding" class="glightbox preview-link" target="_blank"><i class="bi bi-zoom-in"></i></a> -->
+
+                      </div>
+                  </div><!-- End Portfolio Item -->
+
+                  <script>
+                      document.addEventListener('DOMContentLoaded', function () {
+                          var video = document.getElementById('brandingVideo');
+                          var description = document.getElementById('brandingDescription');
+                          var originalDescription = description.textContent; // 保存原始描述以便需要时恢复
+
+                          // 禁用autoplay属性（可选，因为我们在JS中控制播放）
+                          // 但由于autoplay可能受到浏览器策略限制，这一步通常是必要的
+                          video.removeAttribute('autoplay');
+
+                          // 添加鼠标事件监听器到视频元素的父元素（或使用视频元素本身，但考虑到可能的控件覆盖，使用父元素更安全）
+                          video.parentElement.addEventListener('mouseenter', function () {
+                              video.pause(); // 鼠标移入时暂停视频
+                              // 更改描述文本以提供交互反馈
+                              description.textContent = 'Verilog-based game interaction running on Pmod connected to a Basys 3 Board';
+                          });
+
+                          video.parentElement.addEventListener('mouseleave', function () {
+                              video.play(); // 鼠标移出时恢复播放视频
+                              // 恢复原始描述文本（如果需要的话）
+                              description.textContent = originalDescription;
+                          });
+
+                          // 可选：如果需要在页面加载时立即播放视频（尽管我们已经移除了autoplay属性），可以在这里调用video.play()
+                          // 但由于我们已经在mouseenter事件中处理了播放逻辑，所以这一步通常是不必要的
+                          // video.play();
                       });
-                  });
-              </script>
+                  </script>
 
 
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                  <!-- 更改图片链接 -->
-                  <img src="assets/img/masonry-portfolio/picture2.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                      <h4>FPGA "Pong" Game</h4>
-                      <p>Made a two-players Ping Pong game on two FPGA boards</p>
-                      <!-- 保留或修改图片预览链接 -->
-                      <a href="assets/img/masonry-portfolio/picture2.jpg" title="FPGA Pong Game" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                      <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                  </div>
-              </div><!-- End Portfolio Item -->
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-calibur">
+                      <img src="assets/img/masonry-portfolio/SlipringPcb.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                          <h4>Slipring PCB</h4>
+                          <p>Gimbal and chassis PCB depolyed to ensure stable CAN communication in rotational acceleration</p>
+                          <a href="assets/img/masonry-portfolio/SlipringPcb.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                          <a href="slipring_PCB-detail.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                      </div>
+                  </div><!-- End Portfolio Item -->
 
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                  <!-- 插入视频标签，并添加一个id以便JS引用 -->
-                  <video id="brandingVideo" width="100%" height="auto" autoplay muted loop>
-                      <source src="assets/img/masonry-portfolio/video3.mp4" type="video/mp4">
-                      您的浏览器不支持HTML5视频标签。
-                  </video>
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Coursework">
+                      <img src="assets/img/masonry-portfolio/pic7.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                          <h4>Introductory Embedded system Obstacle Challenge</h4>
+                          <p>
+                              A self-powered robot that navigates an obstacle course consisting of a starting area, a bump, a ramp, and a wall, and
+                              delivers a ping pong ball over the wall.
+                          </p>
+                          <a href="assets/img/masonry-portfolio/pic7.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
 
-                  <div class="portfolio-info">
-                      <h4>FPGA Handwriting Recognition Challenge and other features</h4>
-                      <p id="brandingDescription">Verilog-based Various functionalities displayed on Pmod connected to a Basys 3 Board</p>
-                      <!-- 如果需要的话，可以保留或修改视频预览链接 -->
-                      <!-- <a href="assets/img/masonry-portfolio/video3.mp4" title="Branding Video" data-gallery="portfolio-gallery-branding" class="glightbox preview-link" target="_blank"><i class="bi bi-zoom-in"></i></a> -->
-                      <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                  </div>
-              </div><!-- End Portfolio Item -->
+                      </div>
+                  </div><!-- End Portfolio Item -->
 
-              <script>
-                  document.addEventListener('DOMContentLoaded', function () {
-                      var video = document.getElementById('brandingVideo');
-                      var description = document.getElementById('brandingDescription');
-                      var originalDescription = description.textContent; // 保存原始描述以便需要时恢复
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-IndividualIntern">
+                      <img src="assets/img/masonry-portfolio/stm32board.jpg/" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                          <h4>STM32 QuadCoper Drone</h4>
+                          <p>
+                              My first project with STM32. I utilized the most commonly-used chip, STM32F103C8T6, which is enought to do data fusion of 6 axis angles. Double closed-loop PID control are
+                              implemented for self-stablizing purpose. Conversion between quaternions and Euler angles was achieved via in-built DMP library of MPU6050.
+                          </p>
+                          <a href="assets/img/masonry-portfolio/stm32.jpg" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      </div>
+                  </div><!-- End Portfolio Item -->
 
-                      // 禁用autoplay属性（可选，因为我们在JS中控制播放）
-                      // 但由于autoplay可能受到浏览器策略限制，这一步通常是必要的
-                      video.removeAttribute('autoplay');
-
-                      // 添加鼠标事件监听器到视频元素的父元素（或使用视频元素本身，但考虑到可能的控件覆盖，使用父元素更安全）
-                      video.parentElement.addEventListener('mouseenter', function () {
-                          video.pause(); // 鼠标移入时暂停视频
-                          // 更改描述文本以提供交互反馈
-                          description.textContent = 'Hovering over the video pauses playback. Move your mouse away to resume.';
-                      });
-
-                      video.parentElement.addEventListener('mouseleave', function () {
-                          video.play(); // 鼠标移出时恢复播放视频
-                          // 恢复原始描述文本（如果需要的话）
-                          description.textContent = originalDescription;
-                      });
-
-                      // 可选：如果需要在页面加载时立即播放视频（尽管我们已经移除了autoplay属性），可以在这里调用video.play()
-                      // 但由于我们已经在mouseenter事件中处理了播放逻辑，所以这一步通常是不必要的
-                      // video.play();
-                  });
-              </script>
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-IndividualIntern">
+                      <img src="assets/img/masonry-portfolio/practice.jpg/" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                          <h4>PCB Mini Challenge</h4>
+                          <p>
+                              On EasyEDA. I self-learned PCB design by replicating GD32F103C8T6's entire circuit, which is also called Chinese STM32. To make the process more enjoyable, I customized the
+                              silkscreen layer titled "CDE boy"(CDE: College of Design and Engineering). PCBs were then used as a gift to cohorts.
+                          </p>
+                          <a href="assets/img/masonry-portfolio/practice.jpg" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      </div>
+                  </div><!-- End Portfolio Item -->
 
 
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                  <img src="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                      <h4>App 3</h4>
-                      <p>Lorem ipsum, dolor sit</p>
-                      <a href="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                      <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                  </div>
-              </div><!-- End Portfolio Item -->
+              </div><!-- End Portfolio Container -->
 
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                  <img src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                      <h4>Product 3</h4>
-                      <p>Lorem ipsum, dolor sit</p>
-                      <a href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                      <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                  </div>
-              </div><!-- End Portfolio Item -->
-
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                  <img src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                      <h4>Branding 3</h4>
-                      <p>Lorem ipsum, dolor sit</p>
-                      <a href="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                      <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                  </div>
-              </div><!-- End Portfolio Item -->
-
-          </div><!-- End Portfolio Container -->
-
-        </div>
+          </div>
 
       </div>
 
@@ -269,20 +317,11 @@
 
     <div class="container">
       <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">Kelly</strong> <span>All Rights Reserved<br></span></p>
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Terrence</strong> <span>All Rights Reserved<br></span></p>
       </div>
       <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          <a href="https://github.com/lishunyang12"><i class="bi bi-github"></i></a>
+          <a href="https://www.linkedin.com/in/shunyangli/"><i class="bi bi-linkedin"></i></a>
       </div>
     </div>
 
